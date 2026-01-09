@@ -199,7 +199,7 @@ to fix, because creating a `Guess` with a `value` outside this range would
 violate the contract that `Guess::new` is relying on. The conditions in which
 `Guess::new` might panic should be discussed in its public-facing API
 documentation; we’ll cover documentation conventions indicating the possibility
-of a `panic!` in the API documentation that you create in Chapter 14. If
+of a `panic!` in the API documentation that you'll create in Chapter 14. If
 `value` does pass the test, we create a new `Guess` with its `value` field set
 to the `value` parameter and return the `Guess`.
 
