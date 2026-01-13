@@ -20,5 +20,5 @@ More specifically, we’ll cover:
 
 We’ve already covered some other Rust features, such as pattern matching and
 enums, that are also influenced by the functional style. Because mastering
-closures and iterators is an important part of writing fast, idiomatic, Rust
+closures and iterators is an important part of writing fast, idiomatic Rust
 code, we’ll devote this entire chapter to them.
