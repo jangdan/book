@@ -26,7 +26,7 @@ we would remove them in the future. Well, that time is now!
 
 We needed `clone` here because we have a slice with `String` elements in the
 parameter `args`, but the `build` function doesn’t own `args`. To return
-ownership of a `Config` instance, we had to clone the values from the `query`
+ownership of a `Config` instance, we had to clone the values from `args` into the `query`
 and `file_path` fields of `Config` so that the `Config` instance can own its
 values.
 
