@@ -1,7 +1,7 @@
 ## Characteristics of Object-Oriented Languages
 
 There is no consensus in the programming community about what features a
-language must have to be considered object oriented. Rust is influenced by many
+language must have to be considered object-oriented. Rust is influenced by many
 programming paradigms, including OOP; for example, we explored the features
 that came from functional programming in Chapter 13. Arguably, OOP languages
 share certain common characteristics—namely, objects, encapsulation, and
@@ -19,7 +19,7 @@ object-oriented design patterns. It defines OOP in this way:
 > data and the procedures that operate on that data. The procedures are
 > typically called **methods** or **operations**.
 
-Using this definition, Rust is object oriented: Structs and enums have data,
+Using this definition, Rust is object-oriented: Structs and enums have data,
 and `impl` blocks provide methods on structs and enums. Even though structs and
 enums with methods aren’t _called_ objects, they provide the same
 functionality, according to the Gang of Four’s definition of objects.
@@ -98,7 +98,7 @@ _Inheritance_ is a mechanism whereby an object can inherit elements from
 another object’s definition, thus gaining the parent object’s data and behavior
 without you having to define them again.
 
-If a language must have inheritance to be object oriented, then Rust is not
+If a language must have inheritance to be object-oriented, then Rust is not
 such a language. There is no way to define a struct that inherits the parent
 struct’s fields and method implementations without using a macro.
 
