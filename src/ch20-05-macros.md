@@ -473,7 +473,7 @@ pub fn route(attr: TokenStream, item: TokenStream) -> TokenStream {
 
 Here, we have two parameters of type `TokenStream`. The first is for the
 contents of the attribute: the `GET, "/"` part. The second is the body of the
-item the attribute is attached to: in this case, `fn index() {}` and the rest
+item the attribute is attached to: in this case, `fn index() {` and the rest
 of the function’s body.
 
 Other than that, attribute-like macros work the same way as custom `derive`
