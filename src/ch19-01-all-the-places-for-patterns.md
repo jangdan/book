@@ -221,7 +221,7 @@ The code in Listing 19-5 will print the following:
 We adapt an iterator using the `enumerate` method so that it produces a value
 and the index for that value, placed into a tuple. The first value produced is
 the tuple `(0, 'a')`. When this value is matched to the pattern `(index,
-value)`, index will be `0` and value will be `'a'`, printing the first line of
+value)`, `index` will be `0` and `value` will be `'a'`, printing the first line of
 the output.
 
 
