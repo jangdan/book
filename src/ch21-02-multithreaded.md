@@ -249,7 +249,7 @@ it’s given and gives it to an idle thread in the pool to run.
 
 We’ll define the `execute` method on `ThreadPool` to take a closure as a
 parameter. Recall from the [“Moving Captured Values Out of
-Closures”][moving-out-of-closures]<!-- ignore --> in Chapter 13 that we can
+Closures”][moving-out-of-closures]<!-- ignore --> section in Chapter 13 that we can
 take closures as parameters with three different traits: `Fn`, `FnMut`, and
 `FnOnce`. We need to decide which kind of closure to use here. We know we’ll
 end up doing something similar to the standard library `thread::spawn`
